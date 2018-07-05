@@ -129,7 +129,7 @@
 <!-- Beginning of Contact section -->
 <!--=========================================-->
 <div id="contactsection" class="container-fluid">
- <form id = "contact-form" method="post" action="/addclient">
+ <form id = "contact-form" method="POST" action="/addname">
   <div class="row">
     <!-- Padding columns of size 2 on L & R -->
     <div class="col-sm-2"></div>
@@ -146,11 +146,11 @@
         (909)-456-3235
         </h4>
         <h4 class="contactmecalltext">Or</h4>
-        <h4 class="contactmetext">Send Alondra an email with any questions or about any inquiries in puchasing/selling a home!</h4>
+        <h4 class="contactmetext">Send Alondra an email with any questions or about any inquiries in purchasing/selling a home!</h4>
         <!-- Section for inputting user full name -->
         <div class="form-group">
-          <label for ="firstname">First Name:</label>
-          <input type="text" name="firstname" class="form-control" id="username" required/>
+          <label for ="firstname">FirstName:</label>
+          <input type="text" name="firstName" class="form-control" id="username" required/>
         </div>
         <!-- Section for inputting user full name -->
         <div class="form-group">
@@ -160,7 +160,7 @@
         <!-- Section for inputting user email -->
         <div class="form-group">
           <label for ="useremail">Email:</label>
-           <input type="email" name="email" class="form-control" id="useremail" required/>
+           <input type="email" name="Email" class="form-control" id="useremail" required/>
         </div>
         <!-- Checkbox for newsletters -->
         <div class="checkbox">
@@ -169,7 +169,7 @@
         <!-- Section for inputting message -->
         <div class="form-group">
           <label type = "text" for="message">Message:</label>
-          <textarea class="form-control" rows="10" id="message">
+          <textarea name="Message" class="form-control" rows="10" id="message">
           </textarea>
         </div>
         <!-- Button for sending message -->

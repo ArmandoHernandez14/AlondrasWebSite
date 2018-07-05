@@ -10,7 +10,8 @@
     "body-parser": "*",
     "ejs": "^2.6.1",
     "express": "*",
-    "express-validator": "^5.2.0"
+    "express-validator": "^5.2.0",
+    "mongoose": "^5.1.7"
   },
   "author": "Brett McCausland & Armondo Hernadez",
   "license": "ISC"
